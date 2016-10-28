@@ -1339,6 +1339,185 @@
 <text x="0" y="-3.81" size="1.016" layer="95" align="center">&gt;NAME</text>
 <text x="-2.286" y="-0.508" size="1.27" layer="94">GPIO</text>
 </symbol>
+<symbol name="N-MOSFET">
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0.762" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="3.4925" y1="1.905" x2="3.4925" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.4925" y1="0.508" x2="3.4925" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="3.4925" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="3.4925" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="4.2545" y1="0.762" x2="4.0005" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.0005" y1="0.508" x2="3.4925" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.4925" y1="0.508" x2="2.9845" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="2.9845" y1="0.508" x2="2.7305" y2="0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="-1.905" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="1.905" radius="0.3592" width="0" layer="94"/>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.4925" y="0.508"/>
+<vertex x="2.9845" y="-0.254"/>
+<vertex x="4.0005" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0"/>
+<vertex x="2.032" y="0.762"/>
+<vertex x="2.032" y="-0.762"/>
+</polygon>
+<circle x="1.27" y="0" radius="3.175" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<rectangle x1="0.5842" y1="1.27" x2="0.889" y2="2.54" layer="94"/>
+<rectangle x1="-0.3048" y1="-2.6162" x2="0.3048" y2="2.6162" layer="94"/>
+<rectangle x1="0.6096" y1="-2.54" x2="0.9144" y2="-1.27" layer="94"/>
+<rectangle x1="0.5842" y1="-0.762" x2="0.889" y2="0.762" layer="94"/>
+<text x="9.398" y="-1.27" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="9.398" y="1.27" size="1.27" layer="95" align="center">&gt;NAME</text>
+</symbol>
+<symbol name="P-MOSFET">
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="G" x="-2.54" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="0"/>
+<vertex x="1.524" y="0.762"/>
+<vertex x="1.524" y="-0.762"/>
+</polygon>
+<circle x="1.27" y="0" radius="3.175" width="0.1524" layer="94"/>
+<rectangle x1="-0.3048" y1="-2.6162" x2="0.3048" y2="2.6162" layer="94"/>
+<rectangle x1="0.5842" y1="1.27" x2="0.889" y2="2.54" layer="94"/>
+<rectangle x1="0.5842" y1="-0.762" x2="0.889" y2="0.762" layer="94"/>
+<wire x1="0.762" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="3.4925" y2="1.905" width="0.1524" layer="94"/>
+<circle x="2.54" y="1.905" radius="0.3592" width="0" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0.762" y2="-1.905" width="0.1524" layer="94"/>
+<rectangle x1="0.6096" y1="-2.54" x2="0.9144" y2="-1.27" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<circle x="2.54" y="-1.905" radius="0.3592" width="0" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="3.4925" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="3.4925" y1="1.905" x2="3.4925" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.4925" y1="0.508" x2="3.4925" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="3.4925" y1="0.508" x2="2.9845" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="2.9845" y1="0.508" x2="2.7305" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="4.2545" y1="0.762" x2="4.0005" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.0005" y1="0.508" x2="3.4925" y2="0.508" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.4925" y="0.508"/>
+<vertex x="2.9845" y="-0.254"/>
+<vertex x="4.0005" y="-0.254"/>
+</polygon>
+<text x="9.398" y="-1.27" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="9.398" y="1.27" size="1.27" layer="95" align="center">&gt;NAME</text>
+</symbol>
+<symbol name="OPTO-PAIR">
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.2032" layer="94"/>
+<pin name="IN" x="-5.08" y="0" visible="off" length="short" direction="in"/>
+<pin name="OUT" x="5.08" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<text x="0" y="-3.81" size="1.016" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="3.81" size="1.016" layer="96" align="center">&gt;VALUE</text>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.5875" width="0.2032" layer="94"/>
+<wire x1="2.2225" y1="0" x2="0.635" y2="0.9525" width="0.2032" layer="94"/>
+<wire x1="0.635" y1="0.9525" x2="0.635" y2="-0.9525" width="0.2032" layer="94"/>
+<wire x1="0.635" y1="-0.9525" x2="2.2225" y2="0" width="0.2032" layer="94"/>
+<wire x1="-0.3175" y1="0" x2="0.3175" y2="0.3175" width="0.1016" layer="94"/>
+<wire x1="-0.3175" y1="-0.635" x2="0.3175" y2="-0.3175" width="0.1016" layer="94"/>
+<wire x1="0" y1="0.3175" x2="0.3175" y2="0.3175" width="0.1016" layer="94"/>
+<wire x1="0.14478125" y1="0.068578125" x2="0.3175" y2="0.3175" width="0.1016" layer="94"/>
+<wire x1="0.14478125" y1="-0.566421875" x2="0.3175" y2="-0.3175" width="0.1016" layer="94"/>
+<wire x1="0" y1="-0.3175" x2="0.3175" y2="-0.3175" width="0.1016" layer="94"/>
+<wire x1="-1.905" y1="0.3175" x2="-0.635" y2="0.3175" width="0.1524" layer="94"/>
+<polygon width="0" layer="94">
+<vertex x="-1.27" y="0.3175"/>
+<vertex x="-1.905" y="-0.635"/>
+<vertex x="-0.635" y="-0.635"/>
+</polygon>
+</symbol>
+<symbol name="SUPPLY_ADJ">
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.2032" layer="94"/>
+<pin name="OUT" x="5.08" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<text x="0" y="-3.81" size="1.016" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="3.81" size="1.016" layer="96" align="center">&gt;VALUE</text>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="1.27" x2="-0.254" y2="1.27" width="0.2032" layer="94"/>
+<text x="-0.762" y="-2.032" size="1.016" layer="94" font="vector">ADJ</text>
+<pin name="OUT1" x="-5.08" y="0" visible="off" length="short" direction="in"/>
+</symbol>
+<symbol name="MKIO">
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.2032" layer="94"/>
+<pin name="OUT" x="5.08" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<text x="0" y="-4.318" size="1.016" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="3.81" size="1.016" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="94" ratio="20" align="center">MKIO</text>
+</symbol>
+<symbol name="AMPLIFER_DIIFERENTIAL">
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.2032" layer="94"/>
+<pin name="IN" x="-5.08" y="-1.27" visible="off" length="short" direction="in"/>
+<pin name="OUT" x="5.08" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<text x="0" y="-3.81" size="1.016" layer="95" align="center">&gt;NAME</text>
+<wire x1="2.54" y1="0" x2="-2.54" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<pin name="IN1" x="-5.08" y="1.27" visible="off" length="short" direction="in"/>
+<wire x1="-2.286" y1="1.27" x2="-1.27" y2="1.27" width="0.1016" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-1.778" y2="1.778" width="0.1016" layer="94"/>
+<wire x1="-2.286" y1="-1.27" x2="-1.27" y2="-1.27" width="0.1016" layer="94"/>
+</symbol>
+<symbol name="DC-DC">
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="5.08" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.2032" layer="94"/>
+<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<text x="0" y="-3.81" size="1.016" layer="95" align="center">&gt;NAME</text>
+<wire x1="5.08" y1="2.54" x2="-2.54" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="1.27" x2="-0.254" y2="1.27" width="0.2032" layer="94"/>
+<text x="0.254" y="-2.032" size="1.016" layer="94">DC/DC</text>
+<pin name="OUT1" x="-5.08" y="0" visible="off" length="short" direction="in"/>
+</symbol>
+<symbol name="CAN_CONN">
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.2032" layer="94"/>
+<pin name="IN" x="-5.08" y="0" visible="off" length="short" direction="out"/>
+<text x="0" y="3.81" size="1.016" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="-3.81" size="1.016" layer="95" align="center">&gt;NAME</text>
+<text x="-1.778" y="-0.508" size="1.4224" layer="94" font="vector">CAN</text>
+</symbol>
+<symbol name="SPI_CONN">
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.2032" layer="94"/>
+<pin name="OUT" x="5.08" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<text x="0" y="0" size="1.27" layer="94" font="vector" align="center">SPI</text>
+</symbol>
+<symbol name="SUPPLY_5V">
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.2032" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.2032" layer="94"/>
+<pin name="OUT" x="5.08" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<text x="0" y="-3.81" size="1.016" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="3.81" size="1.016" layer="96" align="center">&gt;VALUE</text>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="1.27" x2="-0.254" y2="1.27" width="0.2032" layer="94"/>
+<text x="0" y="-2.032" size="1.016" layer="94" font="vector">5V</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OPERATIONAL_AMPLIFIER" prefix="A" uservalue="yes">
@@ -2576,6 +2755,165 @@
 <deviceset name="GPIO_OUTPUT" prefix="A" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="GPIO_OUTPUT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UNIVERSAL_PACKAGE">
+<connects>
+<connect gate="G$1" pin="OUT" pad="VIRTUAL_PIN0"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="N-MOSFET" prefix="VT" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UNIVERSAL_PACKAGE">
+<connects>
+<connect gate="G$1" pin="D" pad="VIRTUAL_PIN0"/>
+<connect gate="G$1" pin="G" pad="VIRTUAL_PIN1"/>
+<connect gate="G$1" pin="S" pad="VIRTUAL_PIN2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="P-MOSFET" prefix="VT" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="P-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UNIVERSAL_PACKAGE">
+<connects>
+<connect gate="G$1" pin="D" pad="VIRTUAL_PIN0"/>
+<connect gate="G$1" pin="G" pad="VIRTUAL_PIN1"/>
+<connect gate="G$1" pin="S" pad="VIRTUAL_PIN2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OPTO-PAIR" prefix="A">
+<gates>
+<gate name="G$1" symbol="OPTO-PAIR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UNIVERSAL_PACKAGE">
+<connects>
+<connect gate="G$1" pin="IN" pad="VIRTUAL_PIN0"/>
+<connect gate="G$1" pin="OUT" pad="VIRTUAL_PIN1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SUPPLY_ADJ" prefix="A">
+<gates>
+<gate name="G$1" symbol="SUPPLY_ADJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UNIVERSAL_PACKAGE">
+<connects>
+<connect gate="G$1" pin="OUT" pad="VIRTUAL_PIN0"/>
+<connect gate="G$1" pin="OUT1" pad="VIRTUAL_PIN1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MKIO_CONN" prefix="X" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="MKIO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UNIVERSAL_PACKAGE">
+<connects>
+<connect gate="G$1" pin="OUT" pad="VIRTUAL_PIN0"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AMPLIFER_DIFFERENTIAL" prefix="A">
+<gates>
+<gate name="G$1" symbol="AMPLIFER_DIIFERENTIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UNIVERSAL_PACKAGE">
+<connects>
+<connect gate="G$1" pin="IN" pad="VIRTUAL_PIN0"/>
+<connect gate="G$1" pin="IN1" pad="VIRTUAL_PIN1"/>
+<connect gate="G$1" pin="OUT" pad="VIRTUAL_PIN2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DC-DC" prefix="A">
+<gates>
+<gate name="G$1" symbol="DC-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UNIVERSAL_PACKAGE">
+<connects>
+<connect gate="G$1" pin="OUT" pad="VIRTUAL_PIN0"/>
+<connect gate="G$1" pin="OUT1" pad="VIRTUAL_PIN1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAN_CONN" prefix="X">
+<gates>
+<gate name="G$1" symbol="CAN_CONN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UNIVERSAL_PACKAGE">
+<connects>
+<connect gate="G$1" pin="IN" pad="VIRTUAL_PIN0"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPI_CONN" prefix="X">
+<gates>
+<gate name="G$1" symbol="SPI_CONN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UNIVERSAL_PACKAGE">
+<connects>
+<connect gate="G$1" pin="OUT" pad="VIRTUAL_PIN0"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SUPPLY_5V" prefix="P">
+<gates>
+<gate name="G$1" symbol="SUPPLY_5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="UNIVERSAL_PACKAGE">
